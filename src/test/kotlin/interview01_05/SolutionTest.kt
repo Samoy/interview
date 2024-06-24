@@ -11,5 +11,7 @@ class SolutionTest {
         assertTrue(Solution().oneEditAway("pale", "ple"))
         assertFalse(Solution().oneEditAway("pales", "pal"))
         assertTrue(Solution().oneEditAway("", "a"))
+        assertTrue(Solution().oneEditAway("ple", "pla"))
+        assertFalse(Solution().oneEditAway("ple", "abc"))
     }
 }

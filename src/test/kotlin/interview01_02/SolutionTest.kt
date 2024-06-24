@@ -10,5 +10,6 @@ class SolutionTest {
     fun checkPermutation() {
         assertTrue(Solution().CheckPermutation("abc", "bca"))
         assertFalse(Solution().CheckPermutation("abc", "bad"))
+        assertFalse(Solution().CheckPermutation("aba", "aaa"))
     }
 }
