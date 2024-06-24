@@ -11,5 +11,6 @@ class SolutionTest {
         assertTrue(Solution().isFlipedString("waterbottle", "erbottlewat"))
         assertFalse(Solution().isFlipedString("aa", "aba"))
         assertFalse(Solution().isFlipedString("leetcode", ""))
+        assertFalse(Solution().isFlipedString("aba", "abb"))
     }
 }
