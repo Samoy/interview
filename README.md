@@ -1,5 +1,7 @@
 # LeetCode 面试题
-
+[![Test](https://github.com/Samoy/interview/actions/workflows/test.yml/badge.svg)](https://github.com/Samoy/interview/actions/workflows/test.yml)
+[![codecov](https://codecov.io/github/Samoy/interview/graph/badge.svg?token=QVEUZVTT1J)](https://codecov.io/github/Samoy/interview)
+[![LeetCode](https://img.shields.io/badge/leetcode-interview-blue?logo=leetcode)](https://leetcode.cn/studyplan/top-100-liked/?historyId=u7cc6t3)
 ## 面试题01
 
 1. [判定字符串是否唯一](/src/main/kotlin/interview01_01)
